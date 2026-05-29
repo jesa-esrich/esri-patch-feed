@@ -1,0 +1,30 @@
+name: Generate RSS Feed
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"   # every 24 hours
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Run script
+        run: node generate.js
+
+      - name: Commit feed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add feed.xml
+          git commit -m "Update RSS feed" || echo "No changes"
+          git push
