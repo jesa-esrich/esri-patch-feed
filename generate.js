@@ -4,13 +4,13 @@ async function run() {
   const res = await fetch("https://content.esri.com/patch_notification/patches.json");
   const data = await res.json();
 
-  const patches = data.patches || [];
+  const patches = Array.isArray(data) ? data : [];
 
   const items = patches.map(p => `
     <item>
-      <title><![CDATA[${p.name}]]></title>
-      <link>${p.url}</link>
-      <description><![CDATA[Product: ${p.product}]]></description>
+      <title><![CDATA[${p.patchName}]]></title>
+      <link>${p.patchUrl}</link>
+      <description><![CDATA[Product: ${p.productName}]]></description>
       <guid>${p.id}</guid>
       <pubDate>${new Date(p.released).toUTCString()}</pubDate>
     </item>
