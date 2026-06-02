@@ -11136,6 +11136,20 @@
     </item>
 
     <item>
+      <title><![CDATA[ArcGIS Server 11.3 Utility Network Patch 3]]></title>
+      <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-11-3-utility-network-patch-3</link>
+      <guid>S-113-P-1473</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+        Product: ArcGIS Enterprise, ArcGIS Server
+        Platform: Linux,Windows
+        Critical: N/A
+        ReleaseDate: 06/01/2026
+        URL: https://support.esri.com/en-us/patches-updates/2026/arcgis-server-11-3-utility-network-patch-3
+      ]]></description>
+    </item>
+
+    <item>
       <title><![CDATA[ArcGIS Video Server 11.3 Upgrade and Reliability Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2025/arcgis-video-server-11-3-upgrade-and-reliability-patch</link>
       <guid>VS-113-P-1162</guid>
