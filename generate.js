@@ -1,4 +1,36 @@
+
 const fs = require("fs");
+
+function extractVersionsFromFiles(files) {
+  const versions = new Set();
+
+  (files || []).forEach(f => {
+    const match = f.match(/ArcGIS-(\d+)/i);
+    if (match) {
+      const raw = match[1];
+
+      if (raw.length >= 3) {
+        const major = raw.substring(0, 2);
+        const minor = raw.substring(2);
+        versions.add(`${major}.${minor}`);
+      }
+    }
+  });
+
+  return Array.from(versions).sort();
+}
+
+function buildVersionRange(versionList, fallback) {
+  if (versionList.length === 0) {
+    return fallback || "N/A";
+  }
+
+  if (versionList.length === 1) {
+    return versionList[0];
+  }
+
+  return `${versionList[0]} - ${versionList[versionList.length - 1]}`;
+}
 
 async function run() {
   const res = await fetch("https://content.esri.com/patch_notification/patches.json");
@@ -6,41 +38,31 @@ async function run() {
 
   let patches = [];
 
-  
-  // Flatten nested JSON structure
-  if (data.Product && Array.isArray(data.Product)) {
-    for (const product of data.Product) {
-      if (product.patches && Array.isArray(product.patches)) {
-        patches = patches.concat(product.patches);
+  if (data.Product) {
+    for (const group of data.Product) {
+      const fallbackVersion = group.version;
+
+      for (const p of (group.patches || [])) {
+
+        const versionList = extractVersionsFromFiles(p.PatchFiles);
+        const version = buildVersionRange(versionList, fallbackVersion);
+
+        const date = new Date(p.ReleaseDate);
+
+        patches.push(`
+        <item>
+          <title><![CDATA[${p.Name}]]></title>
+          <link>${p.url}</link>
+          <guid>${p.QFE_ID}</guid>
+          <pubDate>${date.toUTCString()}</pubDate>
+          <description><![CDATA[
+${p.Products} | ${p.Platform} | ${p.Critical || "N/A"} | Version: ${version}
+          ]]></description>
+        </item>
+        `);
       }
     }
   }
-
-  console.log("TOTAL PATCHES:", patches.length);
-
-  const items = patches.map(p => {
-    const name = p.Name || "No name";
-    const product = p.Products || "Unknown product";
-    const platform = p.Platform || "Unknown platform";
-    const url = p.url || "";
-    const date = p.ReleaseDate || "";
-    const critical = p.Critical || "N/A";
-
-    return `
-    <item>
-      <title><![CDATA[${name}]]></title>
-      <link>${url}</link>
-      <guid>${p.QFE_ID || url}</guid>
-      <pubDate>${new Date(date).toUTCString()}</pubDate>
-      <description><![CDATA[
-        Product: ${product}
-        Platform: ${platform}
-        Critical: ${critical}
-        ReleaseDate: ${date}
-        URL: ${url}
-      ]]></description>
-    </item>`;
-  }).join("\n");
 
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -48,7 +70,7 @@ async function run() {
   <title>Esri Patch Feed</title>
   <link>https://support.esri.com</link>
   <description>Latest Esri patches</description>
-  ${items}
+  ${patches.join("\n")}
 </channel>
 </rss>`;
 
