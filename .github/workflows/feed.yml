@@ -2,7 +2,7 @@ name: Generate RSS Feed
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # Runs every day at 05:00 UTC
+    - cron: "0 */6 * * *"   # Runs every 6 hours starting at 00:00 UTC
   workflow_dispatch:
 
 jobs:
