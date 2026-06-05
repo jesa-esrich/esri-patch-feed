@@ -9331,16 +9331,7 @@ ArcGIS Insights (Enterprise) | Linux,Windows | false | Version: 20.202
 ArcGIS Insights (Desktop), ArcGIS Insights (Enterprise) | Linux,MacOS,Windows | false | Version: 2020.3
           ]]></description>
         </item>
-
-        <item>
-          <title><![CDATA[MS Flow Test]]></title>
-          <link>https://support.esri.com/en-us/patches-updates/2020/arcgis-insights-2020-3-update-patch-7850</link>
-          <guid>AI-20203-P-541</guid>
-          <pubDate>Wed, 05 Jun 2026 00:00:00 GMT</pubDate>
-          <description><![CDATA[
-TEST | TEST | TEST | Version: 2026
-          ]]></description>
-        </item>
+        
 
         <item>
           <title><![CDATA[ArcGIS Insights Security Patch for ArcGIS Insights 2022.1]]></title>
