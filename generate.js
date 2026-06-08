@@ -1,6 +1,5 @@
 const fs = require("fs");
 
-
 function extractVersionsFromFiles(files) {
   const versions = new Set();
 
@@ -34,16 +33,30 @@ function extractVersionsFromFiles(files) {
   return Array.from(versions);
 }
 
+function sortVersions(versions) {
+  return versions.sort((a, b) => {
+    const pa = a.split('.').map(Number);
+    const pb = b.split('.').map(Number);
+
+    for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+      const diff = (pa[i] || 0) - (pb[i] || 0);
+      if (diff !== 0) return diff;
+    }
+
+    return 0;
+  });
+}
+
 function buildVersionRange(versionList, fallback) {
   const all = [...new Set(versionList)];
 
   if (all.length === 0) return fallback || "N/A";
 
-  all.sort();
+  const sorted = sortVersions(all);
 
-  if (all.length === 1) return all[0];
+  if (sorted.length === 1) return sorted[0];
 
-  return `${all[0]} - ${all[all.length - 1]}`;
+  return `${sorted[0]} - ${sorted[sorted.length - 1]}`;
 }
 
 async function run() {
