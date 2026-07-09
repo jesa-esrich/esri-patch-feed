@@ -5781,6 +5781,17 @@ ArcGIS Enterprise, ArcGIS Workflow Manager Server | Linux,Windows | false | Vers
     
 
     <item>
+      <title><![CDATA[ArcGIS Server 12.1 Analysis Tools Patch]]></title>
+      <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-12-1-analysis-tools-patch</link>
+      <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-12-1-analysis-tools-patch</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 12.1
+      ]]></description>
+    </item>
+    
+
+    <item>
       <title><![CDATA[CityEngine Get Map Data for Open Street Map Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2018/cityengine-get-map-data-for-open-street-map-patch-7616</link>
       <guid>https://support.esri.com/en-us/patches-updates/2018/cityengine-get-map-data-for-open-street-map-patch-7616</guid>
