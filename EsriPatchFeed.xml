@@ -127,17 +127,6 @@ ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false 
     
 
     <item>
-      <title><![CDATA[ArcGIS 10.3 for (Desktop, Engine, Server) Spatial Statistics and Space Time Pattern Mining 2 Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-for-desktop-engine-server-spatial-statistic-2192</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-for-desktop-engine-server-spatial-statistic-2192</guid>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.3
-      ]]></description>
-    </item>
-    
-
-    <item>
       <title><![CDATA[ArcGIS for (Desktop, Engine, Server) WMTS Tiles Misalignment Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-for-desktop-engine-server-wmts-tiles-misalignmen-2291</link>
       <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-for-desktop-engine-server-wmts-tiles-misalignmen-2291</guid>
@@ -188,17 +177,6 @@ ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | false | Version: 10.3
       <pubDate>Tue, 18 Dec 2018 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | false | Version: 10.3 - 10.4.1
-      ]]></description>
-    </item>
-    
-
-    <item>
-      <title><![CDATA[ArcGIS 10.3 for Server sync with related records Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-for-server-sync-with-related-records-patch-2196</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-for-server-sync-with-related-records-patch-2196</guid>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.3
       ]]></description>
     </item>
     
@@ -287,17 +265,6 @@ ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | security | Version: 10.3.
       <pubDate>Wed, 09 May 2018 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10 - 10.3.1
-      ]]></description>
-    </item>
-    
-
-    <item>
-      <title><![CDATA[ArcGIS 10.3.1 for (Desktop, Engine, Server) Geocoding General Maintenance Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-1-for-desktop-engine-server-geocoding-gener-2252</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-1-for-desktop-engine-server-geocoding-gener-2252</guid>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.3.1
       ]]></description>
     </item>
     
