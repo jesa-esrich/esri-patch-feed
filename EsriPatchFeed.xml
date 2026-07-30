@@ -5759,6 +5759,17 @@ ArcGIS Enterprise, ArcGIS Workflow Manager Server | Linux,Windows | false | Vers
     
 
     <item>
+      <title><![CDATA[ArcGIS Data Store 12.1 Relational Store Upgrade Patch]]></title>
+      <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-data-store-12-1-relational-store-upgrade-patch</link>
+      <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-data-store-12-1-relational-store-upgrade-patch</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+ArcGIS Data Store, ArcGIS Enterprise | Linux,Windows | N/A | Version: 12.1
+      ]]></description>
+    </item>
+    
+
+    <item>
       <title><![CDATA[ArcGIS Server 12.1 Analysis Tools Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-12-1-analysis-tools-patch</link>
       <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-12-1-analysis-tools-patch</guid>
