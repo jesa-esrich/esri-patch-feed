@@ -5454,7 +5454,7 @@ ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 11.3
       <title><![CDATA[ArcGIS Server Data Management 2026 Update 1 Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-data-management-2026-update-1-patch</link>
       <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-data-management-2026-update-1-patch</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 11.3
       ]]></description>
@@ -5743,6 +5743,17 @@ ArcGIS Enterprise, ArcGIS Server | Windows | N/A | Version: 11.5
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 11.5
+      ]]></description>
+    </item>
+    
+
+    <item>
+      <title><![CDATA[ArcGIS Server 11.5 ArcGIS Pipeline Referencing/ArcGIS Roads and Highways Patch 4]]></title>
+      <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-11-5-arcgis-pipeline-referencing-arcgis-roads-and-highways-patch-4</link>
+      <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-11-5-arcgis-pipeline-referencing-arcgis-roads-and-highways-patch-4</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+ArcGIS Enterprise, ArcGIS Server | Windows | N/A | Version: 11.5
       ]]></description>
     </item>
     
