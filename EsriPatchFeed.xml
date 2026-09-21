@@ -4901,6 +4901,17 @@ ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 11.1 - 11.5
     
 
     <item>
+      <title><![CDATA[ArcGIS Server Data Management 2026 Update 1 Patch]]></title>
+      <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-data-management-2026-update-1-patch</link>
+      <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-data-management-2026-update-1-patch</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 11.1 - 11.3
+      ]]></description>
+    </item>
+    
+
+    <item>
       <title><![CDATA[ArcGIS Server Security 2026 Update 1 Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-security-2026-update-1-patch</link>
       <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-security-2026-update-1-patch</guid>
@@ -5356,17 +5367,6 @@ ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 11.3
       <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-11-3-network-diagrams-layouts-improvement-patch</link>
       <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-11-3-network-diagrams-layouts-improvement-patch</guid>
       <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 11.3
-      ]]></description>
-    </item>
-    
-
-    <item>
-      <title><![CDATA[ArcGIS Server Data Management 2026 Update 1 Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-data-management-2026-update-1-patch</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-server-data-management-2026-update-1-patch</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Enterprise, ArcGIS Server | Linux,Windows | N/A | Version: 11.3
       ]]></description>
