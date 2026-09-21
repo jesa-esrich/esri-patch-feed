@@ -83,17 +83,6 @@ ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false 
     
 
     <item>
-      <title><![CDATA[ArcGIS 10.3 for (Desktop, Engine, Server) Spatial Statistics and Space Time Pattern Mining Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-for-desktop-engine-server-spatial-statistic-2166</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-for-desktop-engine-server-spatial-statistic-2166</guid>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.3
-      ]]></description>
-    </item>
-    
-
-    <item>
       <title><![CDATA[ArcGIS 10.3 (Desktop, Engine, Server) Geocoding General Maintenance Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-desktop-engine-server-geocoding-general-mai-2186</link>
       <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-desktop-engine-server-geocoding-general-mai-2186</guid>
@@ -122,17 +111,6 @@ ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false 
       <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.2.1 - 10.3
-      ]]></description>
-    </item>
-    
-
-    <item>
-      <title><![CDATA[ArcGIS for (Desktop, Engine, Server) WMTS Tiles Misalignment Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-for-desktop-engine-server-wmts-tiles-misalignmen-2291</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-for-desktop-engine-server-wmts-tiles-misalignmen-2291</guid>
-      <pubDate>Wed, 09 May 2018 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.1 - 10.3.1
       ]]></description>
     </item>
     
@@ -199,17 +177,6 @@ ArcGIS Enterprise, ArcGIS Server | Linux,Windows | false | Version: 10.3
       <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Enterprise, ArcGIS Server | Linux,Windows | false | Version: 10.3
-      ]]></description>
-    </item>
-    
-
-    <item>
-      <title><![CDATA[ArcGIS for Server, Portal for ArcGIS, ArcGIS Data Store "Check for Update" tool Returns Offline Error Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-for-server-portal-for-arcgis-arcgis-data-store-c-7381</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-for-server-portal-for-arcgis-arcgis-data-store-c-7381</guid>
-      <pubDate>Wed, 09 May 2018 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Data Store, ArcGIS Enterprise, ArcGIS Server, Portal for ArcGIS | Linux,Windows | false | Version: 10.3 - 10.3.1
       ]]></description>
     </item>
     
@@ -303,34 +270,12 @@ ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.3
     
 
     <item>
-      <title><![CDATA[ArcGIS 10.3.1 for (Desktop, Server) Raster Type Cumulative Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-1-for-desktop-server-raster-type-cumulative-2284</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-3-1-for-desktop-server-raster-type-cumulative-2284</guid>
-      <pubDate>Tue, 13 Feb 2018 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.3.1
-      ]]></description>
-    </item>
-    
-
-    <item>
       <title><![CDATA[Portal for ArcGIS 10.3.1 High Availability Content Directory Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2016/portal-for-arcgis-10-3-1-high-availability-content-dire-2248</link>
       <guid>https://support.esri.com/en-us/patches-updates/2016/portal-for-arcgis-10-3-1-high-availability-content-dire-2248</guid>
       <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | false | Version: 10.3.1
-      ]]></description>
-    </item>
-    
-
-    <item>
-      <title><![CDATA[Portal for ArcGIS 10.3.1 Security 2016 Update 1 Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/portal-for-arcgis-10-3-1-security-2016-update-1-patch-2289</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/portal-for-arcgis-10-3-1-security-2016-update-1-patch-2289</guid>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | security | Version: 10.3.1
       ]]></description>
     </item>
     
@@ -364,17 +309,6 @@ ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | security | Version: 10.3.
       <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Enterprise, ArcGIS Server | Linux | false | Version: 10.3.1
-      ]]></description>
-    </item>
-    
-
-    <item>
-      <title><![CDATA[ArcGIS for Server (Linux) Security 2016 Update 1 Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-for-server-linux-security-2016-update-1-patch-2283</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-for-server-linux-security-2016-update-1-patch-2283</guid>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Enterprise, ArcGIS Server | Linux | security | Version: 10.2.2 - 10.3.1
       ]]></description>
     </item>
     
@@ -419,17 +353,6 @@ ArcGIS Enterprise, ArcGIS Server | Linux,Windows | security | Version: 10.3.1
       <pubDate>Fri, 13 Nov 2015 00:00:00 GMT</pubDate>
       <description><![CDATA[
 Data Reviewer | Windows | false | Version: 10.3.1
-      ]]></description>
-    </item>
-    
-
-    <item>
-      <title><![CDATA[Portal for ArcGIS Security 2016 Update 2 Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/portal-for-arcgis-security-2016-update-2-patch-7392</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/portal-for-arcgis-security-2016-update-2-patch-7392</guid>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | security | Version: 10.2.2 - 10.3.1
       ]]></description>
     </item>
     
@@ -644,17 +567,6 @@ ArcGIS Data Store, ArcGIS Enterprise | Linux,Windows | false | Version: 10.4.1 -
     
 
     <item>
-      <title><![CDATA[ArcGIS 10.4.1 for (Desktop, Engine, Server) Geocoding General Maintenance Patch]]></title>
-      <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-4-1-for-desktop-engine-server-geocoding-gener-7382</link>
-      <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-4-1-for-desktop-engine-server-geocoding-gener-7382</guid>
-      <pubDate>Tue, 18 Dec 2018 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-ArcGIS Engine, ArcGIS Enterprise, ArcGIS Server, ArcMap | Linux,Windows | false | Version: 10.4.1
-      ]]></description>
-    </item>
-    
-
-    <item>
       <title><![CDATA[ArcGIS 10.4.1 for (Desktop, Engine, Server) Raster Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-4-1-for-desktop-engine-server-raster-patch-7396</link>
       <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-4-1-for-desktop-engine-server-raster-patch-7396</guid>
@@ -831,23 +743,23 @@ Mapping and Charting Solutions | Windows | false | Version: 10.4.1
     
 
     <item>
-      <title><![CDATA[ArcGIS 10.4.1 GeoEvent Extension Patch 1 for Server]]></title>
-      <link>http://support.esri.com/download/7388</link>
-      <guid>http://support.esri.com/download/7388</guid>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-GeoEvent | Windows | false | Version: 10.4.1
-      ]]></description>
-    </item>
-    
-
-    <item>
       <title><![CDATA[ArcGIS 10.4.1 GeoEvent Extension Patch 1]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-4-1-geoevent-extension-patch-1-7388</link>
       <guid>https://support.esri.com/en-us/patches-updates/2016/arcgis-10-4-1-geoevent-extension-patch-1-7388</guid>
       <pubDate>Tue, 18 Dec 2018 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Enterprise, ArcGIS GeoEvent Server | Linux,Windows | false | Version: 10.4.1
+      ]]></description>
+    </item>
+    
+
+    <item>
+      <title><![CDATA[ArcGIS 10.4.1 GeoEvent Extension Patch 1 for Server]]></title>
+      <link>http://support.esri.com/download/7388</link>
+      <guid>http://support.esri.com/download/7388</guid>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+GeoEvent | Windows | false | Version: 10.4.1
       ]]></description>
     </item>
     
