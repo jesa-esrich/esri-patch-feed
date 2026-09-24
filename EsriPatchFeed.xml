@@ -4725,6 +4725,17 @@ ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | security | Version: 11.1 
     
 
     <item>
+      <title><![CDATA[Portal for ArcGIS Security 2026 Update 4 Patch]]></title>
+      <link>https://support.esri.com/en-us/patches-updates/2026/portal-for-arcgis-security-2026-update-4-patch</link>
+      <guid>https://support.esri.com/en-us/patches-updates/2026/portal-for-arcgis-security-2026-update-4-patch</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+ArcGIS Enterprise, Portal for ArcGIS | Linux,Windows | security | Version: 11.1 - 12.1
+      ]]></description>
+    </item>
+    
+
+    <item>
       <title><![CDATA[ArcGIS GeoEvent Server 11.1 Patch 1 (Windows | Linux)]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2025/arcgis-geoevent-server-11-1-patch-1</link>
       <guid>https://support.esri.com/en-us/patches-updates/2025/arcgis-geoevent-server-11-1-patch-1</guid>
@@ -5721,6 +5732,17 @@ ArcGIS Enterprise, ArcGIS Workflow Manager Server | Linux,Windows | false | Vers
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[
 ArcGIS Data Store, ArcGIS Enterprise | Linux,Windows | N/A | Version: 12.1
+      ]]></description>
+    </item>
+    
+
+    <item>
+      <title><![CDATA[ArcGIS Enterprise SDK 12.1 Custom Data Feeds Patch]]></title>
+      <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-enterprise-sdk-12-1-custom-data-feeds-patch</link>
+      <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-enterprise-sdk-12-1-custom-data-feeds-patch</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+ArcGIS Enterprise | Linux,Windows | N/A | Version: 12.1
       ]]></description>
     </item>
     
