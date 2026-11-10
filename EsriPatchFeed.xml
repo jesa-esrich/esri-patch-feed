@@ -5550,6 +5550,17 @@ ArcGIS Data Store, ArcGIS Enterprise | Linux,Windows | N/A | Version: 11.5
     
 
     <item>
+      <title><![CDATA[ArcGIS Mission Server Security 2026 Update 1 Patch]]></title>
+      <link>https://support.esri.com/en-us/patches-updates/2026/arcgis-mission-server-security-2026-update-1-patch</link>
+      <guid>https://support.esri.com/en-us/patches-updates/2026/arcgis-mission-server-security-2026-update-1-patch</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+ArcGIS Enterprise, ArcGIS Mission Server | Linux,Windows | security | Version: 11.5 - 12.1
+      ]]></description>
+    </item>
+    
+
+    <item>
       <title><![CDATA[Portal for ArcGIS 11.5 Web Applications Patch]]></title>
       <link>https://support.esri.com/en-us/patches-updates/2025/portal-for-arcgis-11-5-web-applications-patch</link>
       <guid>https://support.esri.com/en-us/patches-updates/2025/portal-for-arcgis-11-5-web-applications-patch</guid>
